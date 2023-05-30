@@ -10,3 +10,4 @@ public class AssetBrowserWindow : EditorWindow
     private Vector2 scrollPosition;
     private int assetsPerPage = 50;
     private int currentPage = 0;
+    private List<string> filteredAssetPaths = new List<string>();
