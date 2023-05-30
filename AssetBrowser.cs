@@ -48,3 +48,4 @@ public class AssetBrowserWindow : EditorWindow
 
         // Display assets in the current page
         scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
+
