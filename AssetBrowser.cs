@@ -46,3 +46,4 @@ public class AssetBrowserWindow : EditorWindow
         int startIndex = currentPage * assetsPerPage;
         int endIndex = Mathf.Min(startIndex + assetsPerPage, filteredAssetPaths.Count);
 
+        // Display assets in the current page
