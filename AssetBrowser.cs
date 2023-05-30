@@ -20,3 +20,4 @@ public class AssetBrowserWindow : EditorWindow
         window.Show();
     }
 
+    private void OnGUI()
