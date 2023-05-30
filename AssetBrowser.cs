@@ -22,3 +22,4 @@ public class AssetBrowserWindow : EditorWindow
 
     private void OnGUI()
     {
+        EditorGUILayout.LabelField("Search Assets", EditorStyles.boldLabel);
