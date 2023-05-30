@@ -56,3 +56,4 @@ public class AssetBrowserWindow : EditorWindow
             string assetName = Path.GetFileNameWithoutExtension(assetPath);
 
             EditorGUILayout.BeginHorizontal();
+
