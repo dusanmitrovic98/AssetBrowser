@@ -37,3 +37,4 @@ public class AssetBrowserWindow : EditorWindow
         // Update filtered asset paths if search query has changed
         if (GUI.changed)
         {
+            currentPage = 0;
