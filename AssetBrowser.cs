@@ -12,3 +12,4 @@ public class AssetBrowserWindow : EditorWindow
     private int currentPage = 0;
     private List<string> filteredAssetPaths = new List<string>();
 
+    [MenuItem("Window/Asset Browser")]
