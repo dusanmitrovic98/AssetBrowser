@@ -35,3 +35,4 @@ public class AssetBrowserWindow : EditorWindow
         EditorGUILayout.LabelField("Results", EditorStyles.boldLabel);
 
         // Update filtered asset paths if search query has changed
+        if (GUI.changed)
