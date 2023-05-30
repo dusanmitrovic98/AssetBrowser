@@ -18,3 +18,4 @@ public class AssetBrowserWindow : EditorWindow
         AssetBrowserWindow window = GetWindow<AssetBrowserWindow>();
         window.titleContent = new GUIContent("Asset Browser");
         window.Show();
+    }
