@@ -52,3 +52,4 @@ public class AssetBrowserWindow : EditorWindow
         for (int i = startIndex; i < endIndex; i++)
         {
             string guid = filteredAssetPaths[i];
+            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
