@@ -32,3 +32,4 @@ public class AssetBrowserWindow : EditorWindow
 
         EditorGUILayout.Space();
 
+        EditorGUILayout.LabelField("Results", EditorStyles.boldLabel);
