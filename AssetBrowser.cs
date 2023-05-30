@@ -28,3 +28,4 @@ public class AssetBrowserWindow : EditorWindow
         EditorGUILayout.Space();
 
         EditorGUILayout.LabelField("Options", EditorStyles.boldLabel);
+        showPreview = EditorGUILayout.Toggle("Show Preview", showPreview);
