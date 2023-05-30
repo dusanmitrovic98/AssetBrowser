@@ -41,3 +41,4 @@ public class AssetBrowserWindow : EditorWindow
             filteredAssetPaths.Clear();
             filteredAssetPaths.AddRange(AssetDatabase.FindAssets(searchQuery));
         }
+
