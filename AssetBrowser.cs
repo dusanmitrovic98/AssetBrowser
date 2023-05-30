@@ -42,3 +42,4 @@ public class AssetBrowserWindow : EditorWindow
             filteredAssetPaths.AddRange(AssetDatabase.FindAssets(searchQuery));
         }
 
+        // Calculate pagination range
