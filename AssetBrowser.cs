@@ -13,3 +13,4 @@ public class AssetBrowserWindow : EditorWindow
     private List<string> filteredAssetPaths = new List<string>();
 
     [MenuItem("Window/Asset Browser")]
+    public static void OpenWindow()
