@@ -6,3 +6,4 @@ using System.Collections.Generic;
 public class AssetBrowserWindow : EditorWindow
 {
     private string searchQuery = "";
+    private bool showPreview = true;
