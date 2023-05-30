@@ -44,3 +44,4 @@ public class AssetBrowserWindow : EditorWindow
 
         // Calculate pagination range
         int startIndex = currentPage * assetsPerPage;
+        int endIndex = Mathf.Min(startIndex + assetsPerPage, filteredAssetPaths.Count);
