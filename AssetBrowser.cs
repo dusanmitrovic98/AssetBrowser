@@ -15,3 +15,4 @@ public class AssetBrowserWindow : EditorWindow
     [MenuItem("Window/Asset Browser")]
     public static void OpenWindow()
     {
+        AssetBrowserWindow window = GetWindow<AssetBrowserWindow>();
