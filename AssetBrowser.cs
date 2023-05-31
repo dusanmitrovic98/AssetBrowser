@@ -47,3 +47,4 @@ public class AssetBrowserWindow : EditorWindow
         int endIndex = Mathf.Min(startIndex + assetsPerPage, filteredAssetPaths.Count);
 
         // Display assets in the current page
+        scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
