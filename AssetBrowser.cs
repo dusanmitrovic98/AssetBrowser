@@ -61,3 +61,4 @@ public class AssetBrowserWindow : EditorWindow
             if (showPreview)
             {
                 Texture2D previewTexture = AssetDatabase.GetCachedIcon(assetPath) as Texture2D;
+                EditorGUILayout.ObjectField(previewTexture, typeof(Texture2D), false, GUILayout.Width(64), GUILayout.Height(64));
