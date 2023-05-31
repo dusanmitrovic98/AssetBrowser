@@ -99,7 +99,12 @@ public class AssetBrowserWindow : EditorWindow
             currentPage--;
             scrollPosition = Vector2.zero;
         }
-       
+        GUI.enabled = endIndex < filteredAssetPaths.Count;
+        if (GUILayout.Button("Next"))
+        {
+            currentPage++;
+            scrollPosition = Vector2.zero;
+        }
     }
 }
        
