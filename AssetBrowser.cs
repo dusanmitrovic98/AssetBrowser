@@ -69,3 +69,4 @@ public class AssetBrowserWindow : EditorWindow
             if (GUILayout.Button("Import", GUILayout.Width(80)))
             {
                 // Import the asset into the scene or project
+                Object asset = AssetDatabase.LoadAssetAtPath<Object>(assetPath);
