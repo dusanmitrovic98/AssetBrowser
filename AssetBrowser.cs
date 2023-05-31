@@ -72,3 +72,15 @@ public class AssetBrowserWindow : EditorWindow
                 Object asset = AssetDatabase.LoadAssetAtPath<Object>(assetPath);
                 if (asset != null)
                 {
+                    if (Selection.activeObject is GameObject)
+                    {
+                        GameObject parent = Selection.activeObject as GameObject;
+                        GameObject.Instantiate(asset, parent.transform);
+                    }
+                    else
+                    {
+                        AssetDatabase.CreateAsset(asset, "Assets/NewAsset.asset");
+                    }
+                }
+            }
+
