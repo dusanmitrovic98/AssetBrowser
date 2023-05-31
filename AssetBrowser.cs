@@ -27,3 +27,4 @@ public class AssetBrowserWindow : EditorWindow
 
         EditorGUILayout.Space();
 
+        EditorGUILayout.LabelField("Options", EditorStyles.boldLabel);
