@@ -16,3 +16,4 @@ public class AssetBrowserWindow : EditorWindow
     public static void OpenWindow()
     {
         AssetBrowserWindow window = GetWindow<AssetBrowserWindow>();
+        window.titleContent = new GUIContent("Asset Browser");
