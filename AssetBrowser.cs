@@ -105,6 +105,8 @@ public class AssetBrowserWindow : EditorWindow
             currentPage++;
             scrollPosition = Vector2.zero;
         }
+        
+        GUI.enabled = true;
     }
 }
        
