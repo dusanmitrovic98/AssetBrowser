@@ -64,3 +64,4 @@ public class AssetBrowserWindow : EditorWindow
                 EditorGUILayout.ObjectField(previewTexture, typeof(Texture2D), false, GUILayout.Width(64), GUILayout.Height(64));
             }
 
+            // Display asset name and import button
