@@ -66,10 +66,12 @@ public class AssetBrowserWindow : EditorWindow
 
             // Display asset name and import button
             EditorGUILayout.LabelField(assetName, GUILayout.Width(200));
+            
             if (GUILayout.Button("Import", GUILayout.Width(80)))
             {
                 // Import the asset into the scene or project
                 Object asset = AssetDatabase.LoadAssetAtPath<Object>(assetPath);
+                
                 if (asset != null)
                 {
                     if (Selection.activeObject is GameObject)
@@ -94,12 +96,15 @@ public class AssetBrowserWindow : EditorWindow
         // Display pagination buttons
         EditorGUILayout.BeginHorizontal();
         GUI.enabled = currentPage > 0;
+        
         if (GUILayout.Button("Previous"))
         {
             currentPage--;
             scrollPosition = Vector2.zero;
         }
+        
         GUI.enabled = endIndex < filteredAssetPaths.Count;
+        
         if (GUILayout.Button("Next"))
         {
             currentPage++;
