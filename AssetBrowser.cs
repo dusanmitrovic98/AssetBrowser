@@ -55,3 +55,4 @@ public class AssetBrowserWindow : EditorWindow
             string assetPath = AssetDatabase.GUIDToAssetPath(guid);
             string assetName = Path.GetFileNameWithoutExtension(assetPath);
 
+            EditorGUILayout.BeginHorizontal();
