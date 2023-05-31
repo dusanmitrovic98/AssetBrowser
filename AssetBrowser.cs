@@ -65,3 +65,4 @@ public class AssetBrowserWindow : EditorWindow
             }
 
             // Display asset name and import button
+            EditorGUILayout.LabelField(assetName, GUILayout.Width(200));
