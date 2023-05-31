@@ -50,3 +50,4 @@ public class AssetBrowserWindow : EditorWindow
         scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
 
         for (int i = startIndex; i < endIndex; i++)
+        {
