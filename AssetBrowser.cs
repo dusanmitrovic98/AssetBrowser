@@ -7,3 +7,4 @@ public class AssetBrowserWindow : EditorWindow
 {
     private string searchQuery = "";
     private bool showPreview = true;
+    private Vector2 scrollPosition;
