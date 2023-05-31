@@ -84,3 +84,11 @@ public class AssetBrowserWindow : EditorWindow
                 }
             }
 
+            EditorGUILayout.EndHorizontal();
+        }
+
+        EditorGUILayout.EndScrollView();
+
+        EditorGUILayout.Space();
+
+       
