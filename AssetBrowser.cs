@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 using UnityEngine;
 using UnityEditor;
 using System.IO;
@@ -59,4 +56,3 @@ public class AssetBrowserWindow : EditorWindow
             string assetName = Path.GetFileNameWithoutExtension(assetPath);
 
             EditorGUILayout.BeginHorizontal();
->>>>>>> 0d7310e1e737ba88148345e0aa410074ad5a9e8a
