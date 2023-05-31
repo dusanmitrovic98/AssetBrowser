@@ -25,3 +25,4 @@ public class AssetBrowserWindow : EditorWindow
         EditorGUILayout.LabelField("Search Assets", EditorStyles.boldLabel);
         searchQuery = EditorGUILayout.TextField("Search:", searchQuery);
 
+        EditorGUILayout.Space();
