@@ -107,6 +107,7 @@ public class AssetBrowserWindow : EditorWindow
         }
         
         GUI.enabled = true;
+        EditorGUILayout.EndHorizontal();
     }
 }
        
