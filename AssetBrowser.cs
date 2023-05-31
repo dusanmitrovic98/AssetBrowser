@@ -68,3 +68,4 @@ public class AssetBrowserWindow : EditorWindow
             EditorGUILayout.LabelField(assetName, GUILayout.Width(200));
             if (GUILayout.Button("Import", GUILayout.Width(80)))
             {
+                // Import the asset into the scene or project
