@@ -43,3 +43,4 @@ public class AssetBrowserWindow : EditorWindow
         }
 
         // Calculate pagination range
+        int startIndex = currentPage * assetsPerPage;
