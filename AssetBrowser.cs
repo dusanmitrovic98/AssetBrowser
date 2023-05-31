@@ -90,5 +90,16 @@ public class AssetBrowserWindow : EditorWindow
         EditorGUILayout.EndScrollView();
 
         EditorGUILayout.Space();
-
+        
+        // Display pagination buttons
+        EditorGUILayout.BeginHorizontal();
+        GUI.enabled = currentPage > 0;
+        if (GUILayout.Button("Previous"))
+        {
+            currentPage--;
+            scrollPosition = Vector2.zero;
+        }
+       
+    }
+}
        
