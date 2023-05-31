@@ -59,3 +59,4 @@ public class AssetBrowserWindow : EditorWindow
 
             // Display asset preview
             if (showPreview)
+            {
