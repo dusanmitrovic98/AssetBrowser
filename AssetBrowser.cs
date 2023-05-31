@@ -58,3 +58,4 @@ public class AssetBrowserWindow : EditorWindow
             EditorGUILayout.BeginHorizontal();
 
             // Display asset preview
+            if (showPreview)
