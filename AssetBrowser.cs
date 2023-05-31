@@ -70,3 +70,4 @@ public class AssetBrowserWindow : EditorWindow
             {
                 // Import the asset into the scene or project
                 Object asset = AssetDatabase.LoadAssetAtPath<Object>(assetPath);
+                if (asset != null)
