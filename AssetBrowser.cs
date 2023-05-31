@@ -38,3 +38,4 @@ public class AssetBrowserWindow : EditorWindow
         if (GUI.changed)
         {
             currentPage = 0;
+            filteredAssetPaths.Clear();
